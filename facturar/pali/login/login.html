@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FACTURANDO V-1.0</title>
+    <link rel="stylesheet" href="csslogin.css">
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
+    <script src="jslogin.js"></script>
+
+</head>
+<body id="particles-js"></body>
+<div class="animated bounceInDown">
+  <div class="container">
+    <span class="error animated tada" id="msg"></span>
+    <form method="POST" action="autenticar.php" name="form1" class="box" onsubmit="return checkStuff()">
+      <h4>SUERTEN ! <span> el PAN! </span></h4>
+      <h5> Los dioses del "PALI" </h5>
+        <input type="text" name="nombre" placeholder="Usuario" autocomplete="off" required="">
+        <i class="typcn typcn-eye" id="eye"></i>
+
+        <input type="password" name="password" placeholder="Contraseña" id="pwd" autocomplete="off" required="">
+<!--      <label>
+          <input type="checkbox">
+          <span></span>
+          <small class="rmb">Recordar</small>
+        </label> -->
+        <!--<a href="#" class="forgetpass"></a>-->
+        <input type="submit" name="LG" value="Listo !" class="btn1">
+      </form>
+        <center><a href="#" class="dnthave">Solicitar registrarme aquí.</a></center>
+  </div> 
+       <div class="footer">
+      <span>Made <a href="#">By Leslie Murias Flores</a></span>
+    </div>
+</div>
+</html>
